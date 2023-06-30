@@ -87,8 +87,17 @@
 // })
 
 // /// orden de menor a mayor y orden de letrar
-// var array = [1, 2, 3, 4, 5, 6]
-// var array1 = ['e', 'a', 'c', 'u', 'y']
+var array = [1, 2, 3, 4, 5, 6]
+var array1 = ['e', 'a', 'c', 'u', 'y']
+array.reverse()
+console.log(array);
+array1.sort()
+console.log(array1);
+var num=[1, 2, 3, 1, -2, -6, -3, 4, 4, 2, 1, 1, 45]
+const  numero = new Set(num);
+let reusltado =[...numero]
+console.log(reusltado);
+
 
 // array.reverse()
 // console.log(array);
@@ -112,6 +121,3 @@
 
 
 
-var num=[1, 2, 3, 1, -2, -6, -3, 4, 4, 2, 1, 1, 45]
-num.indexOf()
-console.log(num);
